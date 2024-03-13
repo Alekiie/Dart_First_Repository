@@ -1,22 +1,20 @@
-void main(){
-  int week =2;
+void main() {
+  int week = 2;
   double semester = 3.2;
-  String name ="This is the student's biography: ";
-  List<String> students=["Samson","James","Shadrack"];
-   Map<String, dynamic> dummyMap = {
+  String name = "This is the student's biography: ";
+  List<String> students = ["Samson", "James", "Shadrack"];
+  Map<String, dynamic> dummyMap = {
     'name': 'Alice',
     'age': 25,
     'isStudent': true,
     'grades': [87, 91, 88],
-    'address': {
-      'street': '123 Main St',
-      'city': 'Anytown',
-      'zipcode': '12345'
-    }
+    'address': {'street': '123 Main St', 'city': 'Anytown', 'zipcode': '12345'}
   };
+  int closingMark = 232;
   print(name);
   print(semester);
   print(week);
   print(students);
   print(dummyMap);
+  print(closingMark);
 }
